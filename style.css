@@ -5,15 +5,15 @@
 }
 
 .container {
-  height: 100vh;
+  height: 100dvh;
   display: grid;
   place-items: center;
   font-family: "Roboto", sans-serif;
 }
 
 .clock {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   border: 1px solid black;
   border-radius: 50%;
   position: relative;
@@ -27,8 +27,8 @@
 
 .numbers-container {
   position: absolute;
-  top: 82px;
-  left: 82px;
+  top: 105px;
+  left: 105px;
   transform: translate(-50%, -50%);
 }
 
@@ -39,7 +39,7 @@
   height: 35px;
   display: grid;
   place-items: center;
-  color: #f2bed1;
+  color: #edf2f4;
 }
 
 .second-hand,
@@ -56,7 +56,7 @@
 .second-hand {
   height: 2px;
   width: 120px;
-  background-color: #f8e8ee;
+  background-color: #ef233c;
   transform: rotate(270deg);
   z-index: 1;
 }
@@ -78,10 +78,10 @@
 }
 
 .point {
-  background-color: #f2bed1;
+  background-color: #8d99ae;
   width: 15px;
   height: 15px;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

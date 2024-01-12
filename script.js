@@ -7,8 +7,8 @@ for (let i = 0; i < 12; i++) {
   const number = document.createElement("span");
   number.className = "numbers";
   number.innerHTML = digits[i];
-  number.style.top = `${50 - Math.cos((i - 3) * (Math.PI / 6)) * 125}px`;
-  number.style.left = `${50 + Math.sin((i - 3) * (Math.PI / 6)) * 125}px`;
+  number.style.top = `${50 - Math.cos((i - 3) * (Math.PI / 6)) * 145}px`;
+  number.style.left = `${50 + Math.sin((i - 3) * (Math.PI / 6)) * 145}px`;
   numbersContainer.appendChild(number);
 }
 
